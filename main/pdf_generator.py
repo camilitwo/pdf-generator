@@ -179,12 +179,6 @@ def generar_pdf(nombre_cliente, modelo_aire_precio):
 
     send_email(archivo_html, pdf_output)
 
-# Ejemplo de uso:
-#cliente = "Juan Pérez"
-#modelos_precio = [("Modelo1", 500), ("Modelo2", 470000), ("Modelo3", 900600)]
-
-#generar_pdf(cliente, modelos_precio)
-
 def send_email(archivo_html, pdf_output):
     import resend
     import html2text
