@@ -216,5 +216,5 @@ def send_email(archivo_html, pdf_output):
     ]
     })
 
-    print(r.status_code)
+    #print(r.status_code)
 
