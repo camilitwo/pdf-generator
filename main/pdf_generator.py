@@ -216,5 +216,9 @@ def send_email(archivo_html, pdf_output):
     ]
     })
 
+    import os
+    os.remove(archivo_html)
+    os.remove(pdf_output)
+
     #print(r.status_code)
 
