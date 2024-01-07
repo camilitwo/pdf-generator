@@ -188,7 +188,7 @@ def generar_pdf(nombre_cliente, modelo_aire_precio):
 def send_email(archivo_html, pdf_output):
     import resend
     import html2text
-    import os
+    import base64
 
     with open(archivo_html, 'r', encoding='utf-8') as file:
         contenido_html = file.read()
